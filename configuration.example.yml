@@ -1,0 +1,10 @@
+data_source snowflake:
+  type: snowflake
+  connection:
+    account: ${SNOWFLAKE_ACCOUNT}
+    username: ${SNOWFLAKE_USERNAME}
+    password: ${SNOWFLAKE_PASSWORD}
+    database: ${SNOWFLAKE_DATABASE}
+    warehouse: ${SNOWFLAKE_WAREHOUSE}
+    role: ${SNOWFLAKE_ROLE}
+  schema: ${SNOWFLAKE_SCHEMA}

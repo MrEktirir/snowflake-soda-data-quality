@@ -1,0 +1,4 @@
+checks for CUSTOMER_LOYALTY:
+  - row_count > 0
+  - missing_count(CUSTOMER_ID) = 0
+  - duplicate_count(CUSTOMER_ID) = 0
